@@ -1,0 +1,13 @@
+(lang dune 3.0)
+
+(repository
+ (name spice)
+ (url git+https://github.com/spiceml/spice-opam-repo))
+
+(lock_dir
+ (constraints
+  (ocaml-system
+   (= 5.3.1+relocatable)))
+ (repositories upstream overlay spice)
+ (solver_env
+  (sys-ocaml-version 5.3.1+relocatable)))
