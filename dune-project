@@ -19,17 +19,12 @@
 
 (generate_opam_files true)
 
-(authors
- "Josh Berdine <jjb@fb.com>"
- "Hugo Heuzard <hugo.heuzard@gmail.com>"
+(authors "Josh Berdine <jjb@fb.com>" "Hugo Heuzard <hugo.heuzard@gmail.com>"
  "Etienne Millon <etienne@tarides.com>"
- "Guillaume Petiot <guillaume@tarides.com>"
- "Jules Aguillon <jules@j3s.fr>")
+ "Guillaume Petiot <guillaume@tarides.com>" "Jules Aguillon <jules@j3s.fr>")
 
-(maintainers
- "Guillaume Petiot <guillaume@tarides.com>"
- "Jules Aguillon <jules@j3s.fr>"
- "Emile Trotignon <emile@tarides.com>")
+(maintainers "Guillaume Petiot <guillaume@tarides.com>"
+ "Jules Aguillon <jules@j3s.fr>" "Emile Trotignon <emile@tarides.com>")
 
 (source
  (github ocaml-ppx/ocamlformat))
