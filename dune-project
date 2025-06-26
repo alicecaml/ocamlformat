@@ -13,6 +13,8 @@
 
 (name ocamlformat)
 
+(version 0.27.0)
+
 (using menhir 2.1)
 
 (cram enable)
