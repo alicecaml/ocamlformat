@@ -31,6 +31,12 @@
 (source
  (github ocaml-ppx/ocamlformat))
 
+(pin
+ (package
+  (name ocp-indent)
+  (version 1.8.1-no-dynlink))
+ (url git+https://github.com/alicecaml/ocp-indent#1.8.1-no-dynlink))
+
 (package
  (name ocamlformat-lib)
  (synopsis "OCaml Code Formatter")

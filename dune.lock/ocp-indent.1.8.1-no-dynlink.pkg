@@ -1,4 +1,4 @@
-(version 1.8.1)
+(version 1.8.1-no-dynlink)
 
 (build
  (all_platforms ((action (run dune build -p %{pkg-self:name} -j %{jobs})))))
@@ -9,5 +9,6 @@
 
 (source
  (fetch
-  (url https://github.com/OCamlPro/ocp-indent/archive/1.8.1.tar.gz)
-  (checksum md5=70db6649a8c08a682ad63730c9752e31)))
+  (url git+https://github.com/alicecaml/ocp-indent#1.8.1-no-dynlink)))
+
+(dev)
